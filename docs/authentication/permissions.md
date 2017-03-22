@@ -63,7 +63,7 @@ enum AccessLevel {
 
 `Role` permissions allow you to layer more generic role-based authentication methods on top of the connection and user-based permissions you already have. We have added a few queries and mutations that make it easy to manage your new roles and permissions.
 
-In particular, you role-based permissioning is concerned with 3 object types: `User`, `Role`, and a through type called `UserRoles`. In addition, we use the enum `AcessLevel` to manage how much access we should provide a particular instance of a `UserRole`.
+In particular, you role-based permissioning is concerned with 3 object types: `User`, `Role`, and a through type called `UserRoles`. In addition, we use the enum `AccessLevel` to manage how much access we should provide a particular instance of a `UserRole`.
 
 Name | Inputs | Description
 -------------- | -------------- | --------------
